@@ -1,4 +1,4 @@
-// Inisialisasi variabel
+
 let playerCards = [];
 let dealerCards = [];
 let playerScore = 0;

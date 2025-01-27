@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blackjack</h1>
+    <div class="game-area">
+      <div class="player">
+        <h2>Player</h2>
+        <div id="player-cards" class="cards"></div>
+        <p id="player-score">Skor: 0</p>
+      </div>
+      <div class="dealer">
+        <h2>Dealer</h2>
+        <div id="dealer-cards" class="cards"></div>
+        <p id="dealer-score">Skor: 0</p>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="hit">Hit</button>
+      <button id="stand">Stand</button>
+      <button id="restart">Restart</button>
+    </div>
+    <p id="result"></p>
+    <div>
+        <p id="balance">Saldo: $1000</p>
+        <input id="bet" type="number" placeholder="Masukkan taruhan">
+        <button id="place-bet">Pasang Taruhan</button>
+      </div>
+      
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
